@@ -37,7 +37,7 @@ Anyone with an ATProto account. Evaluations are separate records created by the 
 
 ## How do I query hypercerts across the network?
 
-Use the [Hyperindex](/tools/hyperindex) GraphQL API at `https://api.indexer.hypercerts.dev/graphql`. It indexes all hypercert records across the network and supports filtering, search, and real-time subscriptions.
+Use the [Hyperindex](/tools/hyperindex) GraphQL API at `https://api.indexer.hypercerts.dev/graphql`. It indexes all hypercert records across the network and supports filtering, search, real-time subscriptions, and standard introspection for typed client generation. You can explore the API in GraphiQL at `https://api.indexer.hypercerts.dev/graphiql`.
 
 ## How do I fund a hypercert?
 
