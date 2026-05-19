@@ -157,8 +157,8 @@ The primary AppView server that indexes hypercert records and exposes them via a
 | Search | Full-text search across hypercert content |
 
 **Endpoints:**
-- GraphQL: `hyperindex.certified.app/graphql`
-- GraphiQL: `hyperindex.certified.app/graphiql`
+- GraphQL: `api.indexer.hypercerts.dev/graphql` (supports standard introspection)
+- GraphiQL: `api.indexer.hypercerts.dev/graphiql`
 
 ### Frontends 🟢
 
@@ -333,7 +333,7 @@ Formal proposals to add lexicons to Hyperindex's indexing. The community decides
 | Resource | URL |
 |----------|-----|
 | Lexicon Documentation | [impactindexer.org/lexicon](https://impactindexer.org/lexicon) |
-| Hyperindex API | [hyperindex.certified.app/graphql](https://hyperindex.certified.app/graphql) |
+| Hyperindex API | [api.indexer.hypercerts.dev/graphql](https://api.indexer.hypercerts.dev/graphql) |
 | IdentityLink | [identitylink.vercel.app](https://identitylink.vercel.app) |
 | Governance Repo | [tangled.org/gainforest.earth/hypercollective](https://tangled.org/gainforest.earth/hypercollective) |
 | Hypercerts Foundation | [hypercerts.org](https://hypercerts.org) |

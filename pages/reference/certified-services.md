@@ -11,9 +11,11 @@ This page lists public service surfaces for Certified-operated Hypercerts infras
 
 | Service | Environment | Public URL | Purpose |
 |---|---|---|---|
-| Hyperindex API | Production | [`api.indexer.hypercerts.dev/graphql`](https://api.indexer.hypercerts.dev/graphql) | GraphQL API for indexed Hypercerts and Certified records |
+| Hyperindex API | Production | [`api.indexer.hypercerts.dev/graphql`](https://api.indexer.hypercerts.dev/graphql) | GraphQL API for indexed Hypercerts and Certified records; supports standard introspection |
+| Hyperindex GraphiQL | Production | [`api.indexer.hypercerts.dev/graphiql`](https://api.indexer.hypercerts.dev/graphiql) | Browser-based explorer for the production GraphQL API |
 | Hyperindex Client | Production | [`indexer.hypercerts.dev`](https://indexer.hypercerts.dev) | Frontend view for the production indexer |
-| Hyperindex API | Staging | [`dev.api.indexer.hypercerts.dev/graphql`](https://dev.api.indexer.hypercerts.dev/graphql) | GraphQL API for staging data and testing |
+| Hyperindex API | Staging | [`dev.api.indexer.hypercerts.dev/graphql`](https://dev.api.indexer.hypercerts.dev/graphql) | GraphQL API for staging data and testing; supports standard introspection |
+| Hyperindex GraphiQL | Staging | [`dev.api.indexer.hypercerts.dev/graphiql`](https://dev.api.indexer.hypercerts.dev/graphiql) | Browser-based explorer for the staging GraphQL API |
 | Hyperindex Client | Staging | [`dev.indexer.hypercerts.dev`](https://dev.indexer.hypercerts.dev) | Frontend view for the staging indexer |
 
 ## PDSs
