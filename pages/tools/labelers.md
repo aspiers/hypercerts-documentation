@@ -39,6 +39,12 @@ The shared ingestion layer is the same, but each labeler targets different recor
 
 **Docs:** [activitylabeler.hypercerts.dev/docs](https://activitylabeler.hypercerts.dev/docs)
 
+**ATProto labeler handle:** `activitylabeler.certified.one`
+
+**DID:** `did:plc:antf7bsm6f4ohkqfdckefyt7`
+
+**Labeler service record:** [`app.bsky.labeler.service/self` on PDSls](https://pds.ls/at://did:plc:antf7bsm6f4ohkqfdckefyt7/app.bsky.labeler.service/self) · [Hyperscan](https://www.hyperscan.dev/data?uri=at%3A%2F%2Fdid%3Aplc%3Aantf7bsm6f4ohkqfdckefyt7%2Fapp.bsky.labeler.service%2Fself)
+
 Hyperlabel scores the quality of hypercert activity records and publishes labels that help distinguish well-formed records from drafts, placeholders, or likely test data.
 
 ### What it labels
@@ -74,6 +80,12 @@ It also applies penalties and test-detection heuristics for low-quality patterns
 **Production:** [orglabeler.hypercerts.dev](https://orglabeler.hypercerts.dev/)
 
 **Docs:** [orglabeler.hypercerts.dev/docs](https://orglabeler.hypercerts.dev/docs)
+
+**ATProto labeler handle:** `orglabeler.certified.one`
+
+**DID:** `did:plc:pswneepkd5lesumj7ejmkbal`
+
+**Labeler service record:** [`app.bsky.labeler.service/self` on PDSls](https://pds.ls/at://did:plc:pswneepkd5lesumj7ejmkbal/app.bsky.labeler.service/self) · [Hyperscan](https://www.hyperscan.dev/data?uri=at%3A%2F%2Fdid%3Aplc%3Apswneepkd5lesumj7ejmkbal%2Fapp.bsky.labeler.service%2Fself)
 
 Orglabeler scores the quality of certified organization data and publishes labels that reflect how complete and credible an organization record looks.
 

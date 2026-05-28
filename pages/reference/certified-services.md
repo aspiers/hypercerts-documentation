@@ -43,6 +43,13 @@ For full PDS details (versions, active test instances, and guidance), see [Certi
 | Hyperlabel | Production | [`activitylabeler.hypercerts.dev`](https://activitylabeler.hypercerts.dev/) | Labels hypercert activity records for quality and likely-test detection |
 | Orglabeler | Production | [`orglabeler.hypercerts.dev`](https://orglabeler.hypercerts.dev/) | Labels certified organization records using merged profile and organization context |
 
+The ATProto labeler identities are Certified accounts that publish each `app.bsky.labeler.service/self` declaration:
+
+| Service | Labeler handle | DID | Service record |
+|---|---|---|---|
+| Hyperlabel | `activitylabeler.certified.one` | `did:plc:antf7bsm6f4ohkqfdckefyt7` | [PDSls](https://pds.ls/at://did:plc:antf7bsm6f4ohkqfdckefyt7/app.bsky.labeler.service/self) · [Hyperscan](https://www.hyperscan.dev/data?uri=at%3A%2F%2Fdid%3Aplc%3Aantf7bsm6f4ohkqfdckefyt7%2Fapp.bsky.labeler.service%2Fself) |
+| Orglabeler | `orglabeler.certified.one` | `did:plc:pswneepkd5lesumj7ejmkbal` | [PDSls](https://pds.ls/at://did:plc:pswneepkd5lesumj7ejmkbal/app.bsky.labeler.service/self) · [Hyperscan](https://www.hyperscan.dev/data?uri=at%3A%2F%2Fdid%3Aplc%3Apswneepkd5lesumj7ejmkbal%2Fapp.bsky.labeler.service%2Fself) |
+
 ## Status pages
 
 | Page | Covers |
