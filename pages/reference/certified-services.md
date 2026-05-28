@@ -47,8 +47,8 @@ The ATProto labeler identities are Certified accounts that publish each `app.bsk
 
 | Service | Labeler handle | DID | Service record |
 |---|---|---|---|
-| Hyperlabel | `activitylabeler.certified.one` | `did:plc:antf7bsm6f4ohkqfdckefyt7` | [PDSls](https://pds.ls/at://did:plc:antf7bsm6f4ohkqfdckefyt7/app.bsky.labeler.service/self) · [Hyperscan](https://www.hyperscan.dev/data?uri=at%3A%2F%2Fdid%3Aplc%3Aantf7bsm6f4ohkqfdckefyt7%2Fapp.bsky.labeler.service%2Fself) |
-| Orglabeler | `orglabeler.certified.one` | `did:plc:pswneepkd5lesumj7ejmkbal` | [PDSls](https://pds.ls/at://did:plc:pswneepkd5lesumj7ejmkbal/app.bsky.labeler.service/self) · [Hyperscan](https://www.hyperscan.dev/data?uri=at%3A%2F%2Fdid%3Aplc%3Apswneepkd5lesumj7ejmkbal%2Fapp.bsky.labeler.service%2Fself) |
+| Hyperlabel | `activitylabeler.certified.one` | `did:plc:antf7bsm6f4ohkqfdckefyt7` | [PDSls](https://pds.ls/at://did:plc:antf7bsm6f4ohkqfdckefyt7/app.bsky.labeler.service/self) · [Hyperscan](https://www.hyperscan.dev/data?did=did%3Aplc%3Aantf7bsm6f4ohkqfdckefyt7&collection=app.bsky.labeler.service&rkey=self) |
+| Orglabeler | `orglabeler.certified.one` | `did:plc:pswneepkd5lesumj7ejmkbal` | [PDSls](https://pds.ls/at://did:plc:pswneepkd5lesumj7ejmkbal/app.bsky.labeler.service/self) · [Hyperscan](https://www.hyperscan.dev/data?did=did%3Aplc%3Apswneepkd5lesumj7ejmkbal&collection=app.bsky.labeler.service&rkey=self) |
 
 ## Status pages
 
