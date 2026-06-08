@@ -18,7 +18,7 @@ Groups *registered* through the hosted CGS currently get their PDS accounts crea
 | Service | Environment | Who it's for | CGS version |
 |---|---|---|---|
 | [`groups.certified.app`](https://groups.certified.app) | Production CGS | Production group-governed repositories | not yet reporting [¹][n1] |
-| [`dev.groups.certified.app`](https://dev.groups.certified.app) | Staging CGS | Staging group governance for apps under development | not yet reporting [¹][n1] |
+| [`dev.groups.certified.app`](https://dev.groups.certified.app) | Staging CGS | Staging group governance for apps under development | see [`/health`](https://dev.groups.certified.app/health) |
 | [`test.groups.certified.app`](https://test.groups.certified.app) | Test CGS | Hypercerts core development; bleeding-edge testing | see [`/health`](https://test.groups.certified.app/health) |
 
 [n1]: #checking-the-running-version "Version endpoints land on this instance after its next upgrade."
@@ -59,7 +59,7 @@ Like the [ePDS](/architecture/epds), CGS exposes its version on two health endpo
 
 **`/xrpc/_health`** — returns the same payload. Unlike a plain AT Protocol PDS — where `/xrpc/_health` reports the upstream PDS version — CGS is its own service and is not a PDS, so both endpoints report the CGS version (`service: group-service`), not the version of the [backing PDS](/reference/certified-pdss) it proxies to. To check the backing PDS version, query that PDS's own `/xrpc/_health` directly.
 
-Only the test instance ([`test.groups.certified.app`](https://test.groups.certified.app/health)) reports the version today. The staging and production instances don't expose the version endpoints yet; they will after their next upgrade.
+The test and staging instances ([`test.groups.certified.app`](https://test.groups.certified.app/health) and [`dev.groups.certified.app`](https://dev.groups.certified.app/health)) report the version today. The production instance doesn't expose the version endpoints yet; it will after its next upgrade.
 
 ## Status pages
 
